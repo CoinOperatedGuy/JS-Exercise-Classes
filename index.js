@@ -145,7 +145,7 @@ class Instructor extends Lambdasian {
     constructor(PersonObj) {
         super(PersonObj)
         this.specialty = PersonObj.specialty;
-        this.favLanguage = PersonObj.favLangauge;
+        this.favLanguage = PersonObj.favLanguage;
         this.catchPhrase = PersonObj.catchPhrase;
     }
     demo(subject) {
